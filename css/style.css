@@ -1,7 +1,7 @@
 button {
     border: none;
     color: #fff;
-    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    background-color: #8e7bff;
     border-radius: 20px;
     background-size: 100% auto;
     font-family: inherit;
@@ -29,3 +29,52 @@ button {
      box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
    }
+
+
+
+   .but1 {
+    border: none;
+    color: #000;
+    background-color: #80ea99;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0.6em 1.5em;
+   }
+   
+   .but1:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+
+
+   body{
+    font-family: Arial;
+    font-weight: bold;
+   }
+
+   .pet{
+    font-size: 45px;
+   }
+   
+   
